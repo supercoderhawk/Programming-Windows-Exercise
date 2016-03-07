@@ -85,7 +85,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 		DrawText(hdc, TEXT("Hello, Window."), -1, &rect, 
 				DT_SINGLELINE | DT_CENTER | DT_VCENTER);
-
+		
 		EndPaint(hwnd, &ps);
 		return 0;
 	
