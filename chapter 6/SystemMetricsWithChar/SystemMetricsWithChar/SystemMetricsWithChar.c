@@ -1,7 +1,8 @@
 /*--------------------------------------------------
-SystemMetrics.c
+SystemMetricsWithChar.c
 	Display system metrics in a window with a 
 horizontal and vertical scroll bar.
+	Window can accept char message, too.
 	code and compile it with Visual Studio 2008
 --------------------------------------------------*/
 
@@ -128,7 +129,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 			SetTextAlign(hdc, TA_TOP | TA_RIGHT);
 
 			TextOut(hdc, x + 22 * cxCaps + 40 * cxChar, y, szBuffer, 
-				swprintf_s(szBuffer, sizeof(szBuffer), TEXT("%5d"), sysmetrics[i].iIndex));
+				swprintf_s(szBuffer, sizeof(szBuffer) / sizeof(TCHAR), TEXT("%5d"), sysmetrics[i].iIndex));
 
 			SetTextAlign(hdc, TA_TOP | TA_LEFT);
 		}
@@ -250,6 +251,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		SetScrollInfo(hWnd, SB_HORZ, &si, TRUE);
 
 		break;
+	
 	case WM_CLOSE:
 		break;
 	case WM_DESTROY:

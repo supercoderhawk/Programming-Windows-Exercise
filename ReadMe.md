@@ -14,3 +14,9 @@ A simple window program including the window class register, window creation, se
 
 ##chapter 4
 A simple window-based program shows the name, description and value of system metrics with a horizontal and a vertical scroll bar.
+
+##chapter 5
+
+##chapter 6
+SystemMetricsWithChar: A window based on the program of chapter 4, added the character message process.
+KeyView: A simple window-based program shows the pressed character.
