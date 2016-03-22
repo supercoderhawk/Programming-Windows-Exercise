@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicGDI", "BasicGDI\BasicGDI.vcproj", "{42901F9A-B2E7-4C2C-A7A7-97D622C2C5EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SineWave", "..\SineWave\SineWave.vcproj", "{CCDCA220-95F9-48B5-AD1D-91DA2858248A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +15,10 @@ Global
 		{42901F9A-B2E7-4C2C-A7A7-97D622C2C5EA}.Debug|Win32.Build.0 = Debug|Win32
 		{42901F9A-B2E7-4C2C-A7A7-97D622C2C5EA}.Release|Win32.ActiveCfg = Release|Win32
 		{42901F9A-B2E7-4C2C-A7A7-97D622C2C5EA}.Release|Win32.Build.0 = Release|Win32
+		{CCDCA220-95F9-48B5-AD1D-91DA2858248A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CCDCA220-95F9-48B5-AD1D-91DA2858248A}.Debug|Win32.Build.0 = Debug|Win32
+		{CCDCA220-95F9-48B5-AD1D-91DA2858248A}.Release|Win32.ActiveCfg = Release|Win32
+		{CCDCA220-95F9-48B5-AD1D-91DA2858248A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
