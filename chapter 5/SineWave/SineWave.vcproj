@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="BasicGDI"
-	ProjectGUID="{42901F9A-B2E7-4C2C-A7A7-97D622C2C5EA}"
-	RootNamespace="BasicGDI"
+	Name="SineWave"
+	ProjectGUID="{CCDCA220-95F9-48B5-AD1D-91DA2858248A}"
+	RootNamespace="SineWave"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -170,10 +170,6 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-			<File
-				RelativePath=".\DevCaps.c"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="Í·ÎÄ¼þ"

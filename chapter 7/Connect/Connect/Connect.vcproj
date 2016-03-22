@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="BasicGDI"
-	ProjectGUID="{42901F9A-B2E7-4C2C-A7A7-97D622C2C5EA}"
-	RootNamespace="BasicGDI"
+	Name="Connect"
+	ProjectGUID="{8290E715-4FCB-4A43-AD4B-53AF8EDB66C8}"
+	RootNamespace="Connect"
 	Keyword="Win32Proj"
 	TargetFrameworkVersion="196613"
 	>
@@ -171,7 +171,7 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\DevCaps.c"
+				RelativePath=".\Connect.c"
 				>
 			</File>
 		</Filter>

@@ -131,7 +131,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		rectScroll.bottom = cyChar * (cyClient / cyChar);
 
 		InvalidateRect(hWnd, NULL, TRUE);
-		return 0;
+		break;
 	case WM_KEYDOWN:
 	case WM_KEYUP:
 	case WM_CHAR:
@@ -157,7 +157,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 		//scroll up the display
 		ScrollWindow(hWnd, 0, -cyChar, &rectScroll, &rectScroll);
-		return 0;
+		break;
 	case WM_PAINT:
 		hdc = BeginPaint(hWnd, &ps);
 
@@ -188,10 +188,10 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 		}
 		EndPaint(hWnd, &ps);
-		return 0;
+		break;
 	case WM_DESTROY:
 		PostQuitMessage(0);
-		return 0;
+		break;
 	}
 
 	return DefWindowProc(hWnd, message, wParam, lParam);
